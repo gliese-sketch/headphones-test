@@ -4,7 +4,8 @@
   "description": "- Create and navigate inside a directory: `ls`, `mkdir`, `cd`, `code .`\r - To create html and open it using `live-server`\r - Add some content and link `new-css`\r - Render current year using the Date class\r - We want to host this website to make it available on the internet\r - Services: github pages, netlify, pages.dev\r - I want to store this code on github\r - A repository on github is a like a folder on your system",
   "main": "main.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
